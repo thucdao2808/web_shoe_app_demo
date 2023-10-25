@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.trending-production{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+}
+.space{
+    width: 30%;
+
+}
+.no-space{
+    width: 70%;
+}
+.move-product{
+   background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+.line-trending{
+    color: aliceblue;
+    font-size: 30px;
+}

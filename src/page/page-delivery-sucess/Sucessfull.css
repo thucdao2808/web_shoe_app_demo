@@ -1,0 +1,85 @@
+.oder-sucess{
+    color: white;
+    
+
+}
+.couter-icon{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    
+}
+.manager-oder{
+ display: flex;
+ justify-content: center;
+ padding-top: 20px;
+}
+.confirm-order{
+ 
+}
+.icon-sucess{
+ color: aquamarine;
+font-size: 60px;
+box-shadow:0 0 1px 1px rgba(86, 206, 130, 0.1) ;
+
+
+}
+.put-oder{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.code-exchange{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.param-es{
+    display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.feel-satisfaction{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.continue-buy{
+    font-size:16px;
+    font-weight: 700;
+   color: rgb(0, 0, 0);
+   background-color: aliceblue;
+   width: 200px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.continue-buy:hover{
+    background-color: rgb(242, 242, 109);
+    color: black;
+    transition: 0.5s all ease;
+    transform: scale(1.1);
+}
+.end{
+   font-size:16px;
+   font-weight: 700;
+   color: rgb(0, 0, 0);
+   background-color: rgb(246, 99, 99);
+   width: 200px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    margin-left: 20px;
+    border-radius: 3px;
+}
+.sucess-last{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 100px;
+    
+}

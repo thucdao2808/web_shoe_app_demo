@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    padding-top: 7%;
+    background-color: black;
+    padding-left: 40px;
+    
+}
+.Board_hotline{
+    color: white;
+   
+    padding-left: 15px;
+}
+.detail_of_table td{
+    padding-top: 10px;
+    padding-left: 90px;
+    padding-bottom: 10px;
+   
+}
+.entry-content,.entry-title{
+    padding-bottom:20px ;
+    color: yellow;
+}
+.location{
+    color: white;
+    padding-bottom: 40px;
+
+}
+.location p{
+    line-height: 25px;
+    
+}
+.link_guide{
+    text-decoration: none;
+    color: rgb(214, 214, 67);
+}
+.hotline-Facebook{
+    color: yellow;
+}
+.Oder_website{
+    color: yellow;
+}
+
+
+/* CHECKOUT */
+.entry-content-checkout{
+    padding-top: 5%;
+    padding-left: 5%;
+    color: white;
+    line-height: 2em;
+}
+.Method-checkout{
+    color: yellow;
+}
+.entry-title_checkout{
+    color: yellow;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+#primary{
+    padding-bottom: 50px;
+}
+
+
+/* policy sell */
+.entry-Policy{
+    color:white;
+    line-height: 2em;
+    padding-left: 5%;
+}
+.Method_policy{
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+
+/* Question */
+.title-question{
+    color: yellow;
+}
+#primary-question{
+    color: aliceblue;
+    padding-left: 5%;
+    line-height: 2em;
+    padding-bottom:30px ;
+}
+.entry-title-question{
+    padding-top: 20px;
+    color: yellow;
+}

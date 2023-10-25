@@ -1,0 +1,83 @@
+.title-screen{
+    color: whitesmoke;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+
+}
+.limit{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.rearch-repair-img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 1px solid white;
+
+
+}
+.rearch-repair-title:hover{
+   color: yellow;
+}
+.result-search{
+    width: 270px;
+    height: 350px;
+    padding-top: 30px;
+    background-color: rgb(224, 153, 82);
+    border-radius:30px;
+    
+}
+.rearch-repair-title{
+    font-size: 15px;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+.-search-price{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.search-repair-price-sale{
+ 
+    color: bisque;
+    text-decoration: line-through;
+}
+.buy-product-clicked{
+    font-size: 20px;
+  
+    background-color: rgb(229, 233, 237);
+    color: black;
+    border-radius: 10px;
+   
+}
+.chossen-buy{
+     
+      display: flex;
+      justify-content: center;
+      padding-top:30px;
+} 
+.chossen-buy span{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+} 
+.buy-product-clicked:hover{
+    background-color: red;
+    color: antiquewhite;
+    transition: 0.5s all ease;
+    transform: scale(1.1);
+}

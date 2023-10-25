@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container_oder{
+    display: flex;
+    padding-top: 30px;
+}
+.img-oder{
+    width: 35%;
+    padding-left: 5%;
+    
+
+}
+.image_oder{
+    width: 100%;
+    /* height: ; */
+    object-fit: cover;
+    border: 1px solid white;
+}
+.title-oder{
+    width: 40%;
+    /* margin-right: 10%; */
+    padding-left: 50px;
+}
+.title_oder{
+    color: white;
+    
+}
+.yous_order{
+    color: aliceblue;
+}
+.intro_oder{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.code_goods{
+    font-size: 12px;
+    padding-bottom: 30px;
+
+}
+.code_goods .code{
+    color: yellow;
+} 
+.price_main{
+    color: yellow;
+    font-size: 2rem;
+}
+.price_sale{
+    text-decoration: line-through;
+    color: beige;
+    font-size: 2rem;
+}
+.price_comon span{
+    padding-left: 50px;
+}
+.price_comon{
+    padding-bottom: 15px;
+}
+.promotion{
+    width: fit-content;
+    height: 45px;
+    background: linear-gradient(to right, #06DECD, #744DEF);
+    border-radius: 5px;
+    font-family:'League Spartan',sans-serif ;
+    padding-bottom: 20px;
+}
+.decribe{
+    color: aliceblue;
+    padding-top: 20px;
+}
+.choose_size{
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.size_details{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.icon_oder{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.discount{
+    display: flex;
+    padding-top: 10px;
+   
+}
+.pick_size{
+    width: 30px;
+    height: 30px;
+    margin-left: 13px;
+    background-color: rgb(65, 65, 65);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 2px;
+}
+.hotline{
+    display: flex;
+    padding-left: 10px;
+   padding-top: 10px;
+    padding-bottom: 25px;
+    width: 60%;
+    height: 60px;
+    background-color: rgb(113, 112, 112);
+  
+}
+.text{
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    display: flex;justify-content: center;
+    align-items: center;
+}
+.icon_mobile{
+   
+    font-size:1.5rem ;
+    
+}
+.btn_click_oder{
+    width: 200px;
+    height: 40px;
+   margin-top: 20px;
+   margin-bottom: 50px;
+    background-color: antiquewhite;
+    color: black;
+    display: flex;justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.btn_click_oder:hover{
+    background-color: beige;
+   
+    
+}
+.Oder_click{
+    color: black;
+}

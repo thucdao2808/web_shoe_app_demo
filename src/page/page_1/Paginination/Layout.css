@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.pagination{
+    width: 100%;
+    background-color: black;
+    margin-right: 50px;
+    padding-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.click-pagination{
+   
+    padding: 5px;
+}
+.button-click-pagination{
+     width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 1px;
+    background-color: rgb(78, 73, 73);
+    
+}
+.button-click-pagination:hover{
+    color: black;
+    background-color: yellow;
+    border: none;
+    transition: 0.3s;
+    border-radius: 1px;
+
+}
+.button-click-pagination:not(:last-child):hover{
+    background-color:rgb(78, 73, 73) ;
+    color: yellow;
+}

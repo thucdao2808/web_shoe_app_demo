@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.scroll{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(61, 56, 56);
+    color: white;
+    margin-left:93%;
+    font-size: 20px;
+    position:fixed;
+    margin-bottom: 100px;
+  
+    transition:  0.4s ease;
+  }
+  .scroll:hover{
+    background-color: rgb(205, 205, 33);
+    color: black;
+    
+    
+  }

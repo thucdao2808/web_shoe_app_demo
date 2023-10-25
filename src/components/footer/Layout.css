@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row-banner{
+   display: flex;
+   justify-content: space-around;
+}
+
+.footer-one{
+    width: 30%;
+}
+.footer-item__heading{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.footer-two{
+    width:30%;
+   
+    
+ 
+}
+.footer-item-heading{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.youtube-content-banner{
+   
+    color:white;
+
+}
+
+.avatar-chanel{
+    width:50px;
+    height: 50px;
+    
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.youtube-avatar{
+    width: 60%;
+    padding-left: 20px;
+    display: flex;
+
+}
+.youtube-channel-infor{
+   display: flex;
+    background-color: rgb(106, 106, 104);
+}
+.youtube-content-banner{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+
+
+.youtube-channel__people{
+    color: #9c9898;
+   
+}
+.person-follow{
+    color: rgb(255, 238, 238);
+    font-size: 15px;
+    padding: 2px 2px;
+}
+
+.youtube-channel__subscribe{
+    display: flex;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    
+}
+.banner{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+}
+.register:hover{
+   opacity: 0.8;
+   transition: all 0,5s;
+}
+.title-move-link{
+    text-decoration: none;
+    color:aliceblue;
+}
+.title-move-link:hover{
+    color:rgb(229, 229, 99);
+}
+.youtube-channel__title-channel,.youtube-channel__date{
+  color: aliceblue;
+}
+
+/* footer3 */
+
+.footer-three{
+    width: 30%;
+
+}
+.sbi_photo_wrap img{
+   object-fit: cover;
+}
+.choose-image{
+    width: 100px;
+    height: 100px;
+}
+.sbi-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.sbi-item img:hover{
+    opacity: 0.8;
+  
+    border: 3px solid white;
+    cursor: pointer;
+}
+.title-instagram{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+/* .footer-item--showroom{
+  width: 30%;
+}
+.footer-item--link{
+    width: 30%;
+}
+.footer-item-email{
+    width: 30%;
+} */
+.container{
+  background-color:#212121;
+}
+.footer-item__content{
+    color: white;
+    display: inline-block;
+    
+}
+.showroom__heading{
+    color: yellow;
+}
+.map-icon{
+    margin-right: 5px;
+}
+.row-banner{
+  padding-bottom: 80px;
+}
+/* //\\ */
+.footer-follow__link{
+  margin: 10px;
+}
+.link-icon{
+  color: bisque;
+}
+.link-icon:hover{
+  color:rgb(209, 209, 124);
+}
+.container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+  }
+  
+  .input-gmail {
+    max-width: 190px;
+    height: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #53535f;
+    caret-color: #f7f7f8;
+    color: #fff;
+    padding: 7px 10px;
+    border: 2px solid transparent;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin-right: 1px;
+    transition: all .2s ease;
+  }
+  
+  .input-gmail:hover {
+    border: 2px solid rgba(255, 255, 255, 0.16);
+  }
+  
+  .input-gmail:focus {
+    border: 2px solid #a970ff;
+    background-color: #0e0e10;
+  }
+  
+  .search__btn-footer {
+    border: none;
+    cursor: pointer;
+    background-color: rgba(42, 42, 45, 1);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height:100%;
+    width: 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: rgb(19, 18, 18);
+    background-color: yellow;
+  }
+  
+  .search__btn-footer:hover {
+   border: 1px solid rgb(216, 186, 186);
+  }
+  /*  */
+ 
+ .footer-follow{
+    color: white;
+    display: flex;
+    padding-top: 20px;
+ }
+ .footer-item__heading{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+ 
+ }
+ .form-subscribe{
+    padding-top: 20px;
+ }
+ .certification{
+    width: 210px;
+    height: 80px;
+    object-fit: cover;
+    margin-left: 10px;
+ }
+ .certification-national{
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 30px;
+ }
+ /*  */
+.menu a{
+    color: rgb(238, 238, 231);
+    text-decoration: none;
+    
+    
+}
+li{
+    list-style: none;
+}
+.menu a:hover{
+    color: rgb(243, 243, 146);
+   
+}
